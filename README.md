@@ -18,7 +18,7 @@ In this project, we explore the PES using a problem-inspired ansatze, Disentangl
 
 ### Presentation: 
 
-[[Qanything_Chem_Project_Slides]](https://github.com/cheechonghian/Qanything_Chem_Project_Final/blob/main/Qanything%20Results%20Presentation.pdf)
+[Qanything_Chem_Project_Slides](https://github.com/cheechonghian/Qanything_Chem_Project_Final/blob/main/Qanything%20Results%20Presentation.pdf)
 
 ### Source code:
 
