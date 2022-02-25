@@ -13,7 +13,8 @@ The potential energy surface (PES) of a molecular system describes its energy in
 ![image](https://user-images.githubusercontent.com/39799035/155658637-f9b76e51-ef90-4afa-a46b-fb2cda23efd4.png)
 
 
-In this project, we explore the PES using a problem-inspired ansatze, Disentangled Unitary Coupled Cluster (UCC) with Singles and Doubles Excitations Rotations. Such UCC methods are notoriously difficult to implement in practice with current NISQ devices due to their need for deep circuits [[1]](http://arxiv.org/abs/2106.13839)  The ansatze are built using Givens rotations [[2]](http://arxiv.org/abs/1910.10130) – simple particle-preserving variational circuits useful for approximating molecular ground states – as building blocks. We will use PennyLane's built in optimisers to classically optimise the ansatz to the ground state and map out the ground PES's of simple molecules such as the Hydrogen Molecule H2, Helium Dimer He2 and Lithium Hydride LiH on an exact quantum simulator. After optimizing the ansatz, we will apply various IBM noise models and Error Mitigation techniques from Mitig to study how the PESs are affected by the current NISQ devices.
+In this project, we explore the PES using a problem-inspired ansatze, Disentangled Unitary Coupled Cluster (UCC) with Singles and Doubles Excitations Rotations. Such UCC methods are notoriously difficult to implement in practice with current NISQ devices due to their need for deep circuits [[1]](http://arxiv.org/abs/1910.10130) The ansatze are built using Givens rotations [[2]](http://arxiv.org/abs/2106.13839) – simple particle-preserving variational circuits useful for approximating molecular ground states – as building blocks. We will use PennyLane's built in optimisers to classically optimise the ansatz to the ground state and map out the ground PES's of simple molecules such as the Hydrogen Molecule H2, Helium Dimer He2 and Lithium Hydride LiH on an exact quantum simulator. After optimizing the ansatz, we will apply various IBM noise models and Error Mitigation techniques from Mitig to study how the PESs are affected by the current NISQ devices.
+
 
 ### Presentation: 
 
@@ -27,7 +28,6 @@ In this project, we explore the PES using a problem-inspired ansatze, Disentangl
 The smallest test case, Hydrogen (H2) molecule will require a quantum circuit of at least 4 qubits with 15 independent pauli strings observables. The largest test case, Lithium Hydride (LiH) molecule will require at least 12 qubits with 631 independent pauli strings observables.
 
 ### References:
+[[1]](http://arxiv.org/abs/1910.10130) Evangelista, F. A., Chan, G. K.-L., & Scuseria, G. E. (2019). Exact parameterization of fermionic wave functions via unitary coupled cluster theory. The Journal of Chemical Physics, 151(24), 244112.
 
-[[1]](http://arxiv.org/abs/2106.13839) Arrazola, J. M., Matteo, O. D., Quesada, N., Jahangiri, S., Delgado, A., & Killoran, N. (2021). Universal quantum circuits for quantum chemistry.
-
-[[2]](http://arxiv.org/abs/1910.10130) Evangelista, F. A., Chan, G. K.-L., & Scuseria, G. E. (2019). Exact parameterization of fermionic wave functions via unitary coupled cluster theory. The Journal of Chemical Physics, 151(24), 244112.
+[[2]](http://arxiv.org/abs/2106.13839) Arrazola, J. M., Matteo, O. D., Quesada, N., Jahangiri, S., Delgado, A., & Killoran, N. (2021). Universal quantum circuits for quantum chemistry.
