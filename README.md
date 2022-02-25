@@ -15,6 +15,10 @@ The potential energy surface (PES) of a molecular system describes its energy in
 
 In this project, we explore the PES using a problem-inspired ansatze, Disentangled Unitary Coupled Cluster (UCC) with Singles and Doubles Excitations Rotations. Such UCC methods are notoriously difficult to implement in practice with current NISQ devices due to their need for deep circuits [[1]](http://arxiv.org/abs/2106.13839)  The ansatze are built using Givens rotations [[2]](http://arxiv.org/abs/1910.10130) – simple particle-preserving variational circuits useful for approximating molecular ground states – as building blocks. We will use PennyLane's built in optimisers to classically optimise the ansatz to the ground state and map out the ground PES's of simple molecules such as the Hydrogen Molecule H2, Helium Dimer He2 and Lithium Hydride LiH on an exact quantum simulator. After optimizing the ansatz, we will apply various IBM noise models and Error Mitigation techniques from Mitig to study how the PESs are affected by the current NISQ devices.
 
+### Presentation: 
+
+[[Qanything_Chem_Project_Slides]](https://github.com/cheechonghian/Qanything_Chem_Project_Final/blob/main/Qanything%20Results%20Presentation.pdf)
+
 ### Source code:
 
 [Qanything_Chem_Project](https://github.com/cheechonghian/Qanything_Chem_Project)
