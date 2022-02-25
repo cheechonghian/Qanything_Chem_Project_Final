@@ -8,7 +8,7 @@
 
 ### Project Description:
 
-The potential energy surface (PES) of a molecular system describes its energy in terms of geometric parameters such as internuclear distances. For diatomic molecules with only one degree of freedom, i.e. one bond length, the surface is reduced to a potential energy curve or Morse potential.
+The potential energy surface (PES) of a molecular system describes its energy in terms of geometric parameters such as internuclear distances. For diatomic molecules with only one degree of freedom, i.e. one bond length, the surface is reduced to a potential energy curve or Morse potential. Knowledge of the PES allows the exploration of molecular properties, such as atomization or binding energy, and equilibrium bond lengths for various molecules. For more complex molecules, the optimal equilibrium bond lengths and angles for molecules can be studied. Also, the PES along a particular path can be used to map the energy changes in chemical reactions, allowing study of reaction energies and activation barriers.
 
 ![image](https://user-images.githubusercontent.com/39799035/155658637-f9b76e51-ef90-4afa-a46b-fb2cda23efd4.png)
 
